@@ -4,5 +4,6 @@
     <string name="login_hint">user1234</string>
     <string name="password_hint">qwerty4321</string>
     <string name="btn_enter">Войти</string>
+    <string name="enter_all_fields">Заполните все поля</string>
 
 </resources>
