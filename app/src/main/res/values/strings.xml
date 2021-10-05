@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Auto Data</string>
+    <string name="auto_data_logo">Auto Data логотип</string>
+    <string name="login_hint">user1234</string>
+    <string name="password_hint">qwerty4321</string>
+    <string name="btn_enter">Войти</string>
+
 </resources>
