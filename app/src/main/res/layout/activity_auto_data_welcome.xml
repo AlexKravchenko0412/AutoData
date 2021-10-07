@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".AutoDataWelcomeActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="293dp"
+        android:layout_height="324dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/welcome_logo"
+        tools:layout_editor_absoluteY="237dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,22 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/autoDataLogo"
-        android:layout_width="193.17dp"
-        android:layout_height="184dp"
-        android:layout_marginTop="95dp"
-        android:contentDescription="@string/auto_data_logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_mapmode" />
-
     <EditText
         android:id="@+id/editTextLogin"
         android:layout_width="295dp"
         android:layout_height="48dp"
-        android:layout_marginTop="305dp"
+        android:layout_marginTop="346dp"
         android:ems="10"
         android:hint="@string/login_hint"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +22,7 @@
         android:id="@+id/editTextPassword"
         android:layout_width="295dp"
         android:layout_height="48dp"
-        android:layout_marginTop="391dp"
+        android:layout_marginTop="433dp"
         android:ems="10"
         android:hint="@string/password_hint"
         android:inputType="textPassword"
@@ -45,10 +34,39 @@
         android:id="@+id/buttonEnter"
         android:layout_width="295dp"
         android:layout_height="48dp"
-        android:layout_marginTop="489dp"
+        android:layout_marginTop="525dp"
+        android:background="#378EC1"
         android:onClick="onClickEnter"
         android:text="@string/btn_enter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        app:layout_constraintStart_toStartOf="@+id/editTextLogin"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLogin" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        app:layout_constraintStart_toStartOf="@+id/editTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="196dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="69dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/auto_data_logo"
+        android:contentDescription="@string/auto_data_logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
