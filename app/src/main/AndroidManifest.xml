@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.example.autodata">
+    package="android.example.autodata" >
 
     <application
         android:allowBackup="true"
@@ -8,13 +8,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AutoData">
+        android:theme="@style/Theme.AutoData" >
         <activity
-            android:name=".AutoDataWelcomeActivity"
+            android:name=".StepTwoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StepOneActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

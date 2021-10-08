@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         String login = editTextLogin.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
         if(!login.isEmpty() && !password.isEmpty()) {
-            Intent intent = new Intent(this, AutoDataWelcomeActivity.class);
+            Intent intent = new Intent(this, StepOneActivity.class);
             startActivity(intent);
         } else {
             Toast.makeText(this,
