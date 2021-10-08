@@ -5,30 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".StepTwoActivity">
+    tools:context=".StepThreeActivity">
 
     <ImageView
-        android:id="@+id/imageViewStepTwo"
+        android:id="@+id/imageViewStepThree"
         android:layout_width="359dp"
         android:layout_height="354dp"
         android:layout_marginTop="350dp"
         android:layout_marginBottom="57dp"
-        android:contentDescription="@string/step_two_logo"
+        android:contentDescription="@string/step_three_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/step_two_img" />
+        app:srcCompat="@drawable/step_three_img" />
 
-    <ImageView
-        android:id="@+id/imageViewNextStepTwo"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="41dp"
-        android:contentDescription="@string/next_imageview"
-        android:onClick="onClickNext"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="64dp"
+        android:text="@string/btn_start"
+        android:onClick="onClickStart"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewStepTwo"
-        app:srcCompat="@drawable/btn_next_img" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

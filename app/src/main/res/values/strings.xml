@@ -7,7 +7,10 @@
     <string name="password">пароль</string>
     <string name="login">логин</string>
     <string name="auto_data_logo">АвтоData логотип</string>
-    <string name="welcome_logo">Логотип приветствия</string>
+    <string name="welcome_logo">Шаг 1 логотип</string>
     <string name="next_imageview">Кнопка далее</string>
+    <string name="step_two_logo">Шаг 2 логотип</string>
+    <string name="step_three_logo">Шаг 3 логотип</string>
+    <string name="btn_start">Начать</string>
 
 </resources>

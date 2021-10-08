@@ -9,12 +9,12 @@ import android.widget.ImageView;
 
 public class StepOneActivity extends AppCompatActivity {
 
-    private ImageView imageViewNext;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_step_one);
-        imageViewNext = findViewById(R.id.imageViewNext);
+
     }
 
     public void onClickNext(View view) {
